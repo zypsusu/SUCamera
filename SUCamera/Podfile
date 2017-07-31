@@ -1,0 +1,5 @@
+target ‘SUCamera’ do
+
+pod ‘GPUImage’
+
+end
