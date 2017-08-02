@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1D0F9D1F3060A900F128EE /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0F9C1F3060A900F128EE /* Video.m */; };
+		4F1D0F9F1F30664D00F128EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1D0F9E1F30664D00F128EE /* CoreGraphics.framework */; };
+		4F1D0FA21F30757C00F128EE /* VideoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FA11F30757C00F128EE /* VideoPoint.m */; };
+		4F1D0FA41F3075EC00F128EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1D0FA31F3075EC00F128EE /* UIKit.framework */; };
+		4F1D0FA71F316ACC00F128EE /* AVAssetStitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FA61F316ACC00F128EE /* AVAssetStitcher.m */; };
+		4F1D0FAA1F31A89300F128EE /* SUReaderToWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FA91F31A89300F128EE /* SUReaderToWriter.m */; };
 		4F790A121F2F0B900044C115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A111F2F0B900044C115 /* main.m */; };
 		4F790A151F2F0B900044C115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A141F2F0B900044C115 /* AppDelegate.m */; };
 		4F790A181F2F0B900044C115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A171F2F0B900044C115 /* ViewController.m */; };
@@ -15,6 +21,11 @@
 		4F790A201F2F0B900044C115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F790A1E1F2F0B900044C115 /* LaunchScreen.storyboard */; };
 		4F790A2B1F2F0B900044C115 /* SUCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A2A1F2F0B900044C115 /* SUCameraTests.m */; };
 		4F790A361F2F0B900044C115 /* SUCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A351F2F0B900044C115 /* SUCameraUITests.m */; };
+		4F790A481F2F1D3E0044C115 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F790A471F2F1D3E0044C115 /* RecordViewController.xib */; };
+		4F790A4A1F2F1D4D0044C115 /* EffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F790A491F2F1D4D0044C115 /* EffectViewController.xib */; };
+		4F790A4D1F2F1DD50044C115 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A4C1F2F1DD50044C115 /* RecordViewController.m */; };
+		4F790A501F2F1DE20044C115 /* EffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A4F1F2F1DE20044C115 /* EffectViewController.m */; };
+		4F790A541F2F2E940044C115 /* SURecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A531F2F2E940044C115 /* SURecord.m */; };
 		8AA826FCA68E36D7CB261159 /* libPods-SUCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC74A69E9E2FB43C5907140 /* libPods-SUCamera.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +49,16 @@
 /* Begin PBXFileReference section */
 		06EA54A854CA5F40F6C8C0F8 /* Pods-SUCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-SUCamera/Pods-SUCamera.release.xcconfig"; sourceTree = "<group>"; };
 		3B0E950AE174F8CE8EDBFE12 /* Pods-SUCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SUCamera/Pods-SUCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1D0F9B1F3060A900F128EE /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		4F1D0F9C1F3060A900F128EE /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		4F1D0F9E1F30664D00F128EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F1D0FA01F30757C00F128EE /* VideoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPoint.h; sourceTree = "<group>"; };
+		4F1D0FA11F30757C00F128EE /* VideoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPoint.m; sourceTree = "<group>"; };
+		4F1D0FA31F3075EC00F128EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F1D0FA51F316ACC00F128EE /* AVAssetStitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAssetStitcher.h; sourceTree = "<group>"; };
+		4F1D0FA61F316ACC00F128EE /* AVAssetStitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAssetStitcher.m; sourceTree = "<group>"; };
+		4F1D0FA81F31A89300F128EE /* SUReaderToWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUReaderToWriter.h; sourceTree = "<group>"; };
+		4F1D0FA91F31A89300F128EE /* SUReaderToWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUReaderToWriter.m; sourceTree = "<group>"; };
 		4F790A0D1F2F0B900044C115 /* SUCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F790A111F2F0B900044C115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F790A131F2F0B900044C115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +75,14 @@
 		4F790A311F2F0B900044C115 /* SUCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F790A351F2F0B900044C115 /* SUCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUCameraUITests.m; sourceTree = "<group>"; };
 		4F790A371F2F0B900044C115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F790A471F2F1D3E0044C115 /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		4F790A491F2F1D4D0044C115 /* EffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EffectViewController.xib; sourceTree = "<group>"; };
+		4F790A4B1F2F1DD50044C115 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		4F790A4C1F2F1DD50044C115 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		4F790A4E1F2F1DE20044C115 /* EffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectViewController.h; sourceTree = "<group>"; };
+		4F790A4F1F2F1DE20044C115 /* EffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectViewController.m; sourceTree = "<group>"; };
+		4F790A521F2F2E940044C115 /* SURecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SURecord.h; sourceTree = "<group>"; };
+		4F790A531F2F2E940044C115 /* SURecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SURecord.m; sourceTree = "<group>"; };
 		CFC74A69E9E2FB43C5907140 /* libPods-SUCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SUCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1D0FA41F3075EC00F128EE /* UIKit.framework in Frameworks */,
+				4F1D0F9F1F30664D00F128EE /* CoreGraphics.framework in Frameworks */,
 				8AA826FCA68E36D7CB261159 /* libPods-SUCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,14 +139,12 @@
 		4F790A0F1F2F0B900044C115 /* SUCamera */ = {
 			isa = PBXGroup;
 			children = (
+				4F790A511F2F2E570044C115 /* Categery */,
 				4F790A131F2F0B900044C115 /* AppDelegate.h */,
 				4F790A141F2F0B900044C115 /* AppDelegate.m */,
-				4F790A161F2F0B900044C115 /* ViewController.h */,
-				4F790A171F2F0B900044C115 /* ViewController.m */,
-				4F790A191F2F0B900044C115 /* Main.storyboard */,
-				4F790A1C1F2F0B900044C115 /* Assets.xcassets */,
-				4F790A1E1F2F0B900044C115 /* LaunchScreen.storyboard */,
-				4F790A211F2F0B900044C115 /* Info.plist */,
+				4F790A461F2F12190044C115 /* ViewController */,
+				4F790A451F2F12150044C115 /* View */,
+				4F790A431F2F12070044C115 /* Model */,
 				4F790A101F2F0B900044C115 /* Supporting Files */,
 			);
 			path = SUCamera;
@@ -124,6 +153,9 @@
 		4F790A101F2F0B900044C115 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F790A1C1F2F0B900044C115 /* Assets.xcassets */,
+				4F790A1E1F2F0B900044C115 /* LaunchScreen.storyboard */,
+				4F790A211F2F0B900044C115 /* Info.plist */,
 				4F790A111F2F0B900044C115 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -147,9 +179,58 @@
 			path = SUCameraUITests;
 			sourceTree = "<group>";
 		};
+		4F790A431F2F12070044C115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D0F9B1F3060A900F128EE /* Video.h */,
+				4F1D0F9C1F3060A900F128EE /* Video.m */,
+				4F1D0FA01F30757C00F128EE /* VideoPoint.h */,
+				4F1D0FA11F30757C00F128EE /* VideoPoint.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F790A451F2F12150044C115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4F790A461F2F12190044C115 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F790A161F2F0B900044C115 /* ViewController.h */,
+				4F790A171F2F0B900044C115 /* ViewController.m */,
+				4F790A191F2F0B900044C115 /* Main.storyboard */,
+				4F790A4B1F2F1DD50044C115 /* RecordViewController.h */,
+				4F790A4C1F2F1DD50044C115 /* RecordViewController.m */,
+				4F790A471F2F1D3E0044C115 /* RecordViewController.xib */,
+				4F790A4E1F2F1DE20044C115 /* EffectViewController.h */,
+				4F790A4F1F2F1DE20044C115 /* EffectViewController.m */,
+				4F790A491F2F1D4D0044C115 /* EffectViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4F790A511F2F2E570044C115 /* Categery */ = {
+			isa = PBXGroup;
+			children = (
+				4F790A521F2F2E940044C115 /* SURecord.h */,
+				4F790A531F2F2E940044C115 /* SURecord.m */,
+				4F1D0FA51F316ACC00F128EE /* AVAssetStitcher.h */,
+				4F1D0FA61F316ACC00F128EE /* AVAssetStitcher.m */,
+				4F1D0FA81F31A89300F128EE /* SUReaderToWriter.h */,
+				4F1D0FA91F31A89300F128EE /* SUReaderToWriter.m */,
+			);
+			name = Categery;
+			sourceTree = "<group>";
+		};
 		9B6C4A7CCA411866FFD5E8BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F1D0FA31F3075EC00F128EE /* UIKit.framework */,
+				4F1D0F9E1F30664D00F128EE /* CoreGraphics.framework */,
 				CFC74A69E9E2FB43C5907140 /* libPods-SUCamera.a */,
 			);
 			name = Frameworks;
@@ -279,6 +360,8 @@
 				4F790A201F2F0B900044C115 /* LaunchScreen.storyboard in Resources */,
 				4F790A1D1F2F0B900044C115 /* Assets.xcassets in Resources */,
 				4F790A1B1F2F0B900044C115 /* Main.storyboard in Resources */,
+				4F790A481F2F1D3E0044C115 /* RecordViewController.xib in Resources */,
+				4F790A4A1F2F1D4D0044C115 /* EffectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +434,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1D0FA21F30757C00F128EE /* VideoPoint.m in Sources */,
+				4F1D0FA71F316ACC00F128EE /* AVAssetStitcher.m in Sources */,
+				4F790A541F2F2E940044C115 /* SURecord.m in Sources */,
 				4F790A181F2F0B900044C115 /* ViewController.m in Sources */,
+				4F1D0FAA1F31A89300F128EE /* SUReaderToWriter.m in Sources */,
+				4F790A501F2F1DE20044C115 /* EffectViewController.m in Sources */,
 				4F790A151F2F0B900044C115 /* AppDelegate.m in Sources */,
 				4F790A121F2F0B900044C115 /* main.m in Sources */,
+				4F790A4D1F2F1DD50044C115 /* RecordViewController.m in Sources */,
+				4F1D0F9D1F3060A900F128EE /* Video.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +597,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CW3639CALY;
 				INFOPLIST_FILE = SUCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TuDa.SUCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CW3639CALY;
 				INFOPLIST_FILE = SUCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TuDa.SUCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -595,6 +687,7 @@
 				4F790A3C1F2F0B900044C115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F790A3D1F2F0B900044C115 /* Build configuration list for PBXNativeTarget "SUCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +696,7 @@
 				4F790A3F1F2F0B900044C115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F790A401F2F0B900044C115 /* Build configuration list for PBXNativeTarget "SUCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +705,7 @@
 				4F790A421F2F0B900044C115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

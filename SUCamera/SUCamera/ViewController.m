@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RecordViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)showRecod:(id)sender {
+    RecordViewController *recodVC = [[RecordViewController alloc] init];
+    [self.navigationController presentViewController:recodVC animated:YES completion:nil];
 }
-
 
 @end
