@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-@class GPUImageView, Video;
+@class GPUImageView, Video, PointProgress;
+
+#define RGBToColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
 @interface RecordViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIView *viewCenter;
-//@property (weak, nonatomic) IBOutlet PointProgress *pointProgress;
+@property (weak, nonatomic) IBOutlet PointProgress *pointProgress;
 @property (weak, nonatomic) IBOutlet GPUImageView *gpuImageView;
 @property (weak, nonatomic) IBOutlet UIView *viewMask;
 @property (weak, nonatomic) IBOutlet UILabel *labelOrientation;
@@ -77,4 +79,6 @@
 - (IBAction)viewCenterPanGesture:(id)sender;
 
 - (CGPoint)buttonLibrarayCenterPointToView;
+
+
 @end

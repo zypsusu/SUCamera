@@ -35,7 +35,7 @@
         _audioTrack = [_composition addMutableTrackWithMediaType:AVMediaTypeAudio preferredTrackID:kCMPersistentTrackID_Invalid];
         _atTime = kCMTimeZero;
     }
-    return nil;
+    return self;
 }
 
 - (void)addAsset:(AVURLAsset *)asset rotate:(NSInteger)rotate withError:(NSError **)error{

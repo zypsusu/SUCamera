@@ -13,6 +13,18 @@
 		4F1D0FA41F3075EC00F128EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1D0FA31F3075EC00F128EE /* UIKit.framework */; };
 		4F1D0FA71F316ACC00F128EE /* AVAssetStitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FA61F316ACC00F128EE /* AVAssetStitcher.m */; };
 		4F1D0FAA1F31A89300F128EE /* SUReaderToWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FA91F31A89300F128EE /* SUReaderToWriter.m */; };
+		4F1D0FAD1F31CE6400F128EE /* PointProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FAC1F31CE6400F128EE /* PointProgress.m */; };
+		4F1D0FB51F340F0800F128EE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FB41F340F0800F128EE /* MBProgressHUD.m */; };
+		4F1D0FB91F340F2800F128EE /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FB81F340F2800F128EE /* TTTAttributedLabel.m */; };
+		4F1D0FBD1F340F5100F128EE /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FBC1F340F5100F128EE /* HMSegmentedControl.m */; };
+		4F1D0FC01F3410DA00F128EE /* RecordAudioProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FBF1F3410DA00F128EE /* RecordAudioProgressView.m */; };
+		4F1D0FC31F3410E300F128EE /* QUSmoothCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FC21F3410E300F128EE /* QUSmoothCollectionView.m */; };
+		4F1D0FC61F3410F000F128EE /* EffectTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FC51F3410F000F128EE /* EffectTabView.m */; };
+		4F1D0FC91F3410FA00F128EE /* AudioMetersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FC81F3410FA00F128EE /* AudioMetersView.m */; };
+		4F1D0FCC1F34134A00F128EE /* RecordAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FCB1F34134A00F128EE /* RecordAudio.m */; };
+		4F1D0FCF1F34186700F128EE /* UIWindow+QPLastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FCE1F34186700F128EE /* UIWindow+QPLastWindow.m */; };
+		4F1D0FD31F346FDF00F128EE /* SampleEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D0FD11F346FDF00F128EE /* SampleEffectViewController.m */; };
+		4F1D0FD41F346FE000F128EE /* SampleEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D0FD21F346FDF00F128EE /* SampleEffectViewController.xib */; };
 		4F790A121F2F0B900044C115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A111F2F0B900044C115 /* main.m */; };
 		4F790A151F2F0B900044C115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A141F2F0B900044C115 /* AppDelegate.m */; };
 		4F790A181F2F0B900044C115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A171F2F0B900044C115 /* ViewController.m */; };
@@ -59,6 +71,29 @@
 		4F1D0FA61F316ACC00F128EE /* AVAssetStitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAssetStitcher.m; sourceTree = "<group>"; };
 		4F1D0FA81F31A89300F128EE /* SUReaderToWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUReaderToWriter.h; sourceTree = "<group>"; };
 		4F1D0FA91F31A89300F128EE /* SUReaderToWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUReaderToWriter.m; sourceTree = "<group>"; };
+		4F1D0FAB1F31CE6400F128EE /* PointProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointProgress.h; sourceTree = "<group>"; };
+		4F1D0FAC1F31CE6400F128EE /* PointProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointProgress.m; sourceTree = "<group>"; };
+		4F1D0FB31F340F0800F128EE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4F1D0FB41F340F0800F128EE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4F1D0FB71F340F2800F128EE /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		4F1D0FB81F340F2800F128EE /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		4F1D0FBB1F340F5100F128EE /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		4F1D0FBC1F340F5100F128EE /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		4F1D0FBE1F3410DA00F128EE /* RecordAudioProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordAudioProgressView.h; sourceTree = "<group>"; };
+		4F1D0FBF1F3410DA00F128EE /* RecordAudioProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudioProgressView.m; sourceTree = "<group>"; };
+		4F1D0FC11F3410E300F128EE /* QUSmoothCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUSmoothCollectionView.h; sourceTree = "<group>"; };
+		4F1D0FC21F3410E300F128EE /* QUSmoothCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUSmoothCollectionView.m; sourceTree = "<group>"; };
+		4F1D0FC41F3410F000F128EE /* EffectTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectTabView.h; sourceTree = "<group>"; };
+		4F1D0FC51F3410F000F128EE /* EffectTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectTabView.m; sourceTree = "<group>"; };
+		4F1D0FC71F3410FA00F128EE /* AudioMetersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioMetersView.h; sourceTree = "<group>"; };
+		4F1D0FC81F3410FA00F128EE /* AudioMetersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioMetersView.m; sourceTree = "<group>"; };
+		4F1D0FCA1F34134A00F128EE /* RecordAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordAudio.h; sourceTree = "<group>"; };
+		4F1D0FCB1F34134A00F128EE /* RecordAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudio.m; sourceTree = "<group>"; };
+		4F1D0FCD1F34186700F128EE /* UIWindow+QPLastWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+QPLastWindow.h"; sourceTree = "<group>"; };
+		4F1D0FCE1F34186700F128EE /* UIWindow+QPLastWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+QPLastWindow.m"; sourceTree = "<group>"; };
+		4F1D0FD01F346FDF00F128EE /* SampleEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleEffectViewController.h; sourceTree = "<group>"; };
+		4F1D0FD11F346FDF00F128EE /* SampleEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleEffectViewController.m; sourceTree = "<group>"; };
+		4F1D0FD21F346FDF00F128EE /* SampleEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleEffectViewController.xib; sourceTree = "<group>"; };
 		4F790A0D1F2F0B900044C115 /* SUCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F790A111F2F0B900044C115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F790A131F2F0B900044C115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +149,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1D0FB11F340EE900F128EE /* Macs */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D0FBA1F340F5100F128EE /* HMSegmented */,
+				4F1D0FB61F340F2800F128EE /* TTTAttributedLabel */,
+				4F1D0FB21F340F0800F128EE /* MBProgressHUD */,
+			);
+			name = Macs;
+			sourceTree = "<group>";
+		};
+		4F1D0FB21F340F0800F128EE /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D0FB31F340F0800F128EE /* MBProgressHUD.h */,
+				4F1D0FB41F340F0800F128EE /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4F1D0FB61F340F2800F128EE /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D0FB71F340F2800F128EE /* TTTAttributedLabel.h */,
+				4F1D0FB81F340F2800F128EE /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		4F1D0FBA1F340F5100F128EE /* HMSegmented */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D0FBB1F340F5100F128EE /* HMSegmentedControl.h */,
+				4F1D0FBC1F340F5100F128EE /* HMSegmentedControl.m */,
+			);
+			path = HMSegmented;
+			sourceTree = "<group>";
+		};
 		4F790A041F2F0B900044C115 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +217,7 @@
 				4F790A461F2F12190044C115 /* ViewController */,
 				4F790A451F2F12150044C115 /* View */,
 				4F790A431F2F12070044C115 /* Model */,
+				4F1D0FB11F340EE900F128EE /* Macs */,
 				4F790A101F2F0B900044C115 /* Supporting Files */,
 			);
 			path = SUCamera;
@@ -193,6 +266,18 @@
 		4F790A451F2F12150044C115 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4F1D0FAB1F31CE6400F128EE /* PointProgress.h */,
+				4F1D0FAC1F31CE6400F128EE /* PointProgress.m */,
+				4F1D0FBE1F3410DA00F128EE /* RecordAudioProgressView.h */,
+				4F1D0FBF1F3410DA00F128EE /* RecordAudioProgressView.m */,
+				4F1D0FC11F3410E300F128EE /* QUSmoothCollectionView.h */,
+				4F1D0FC21F3410E300F128EE /* QUSmoothCollectionView.m */,
+				4F1D0FC41F3410F000F128EE /* EffectTabView.h */,
+				4F1D0FC51F3410F000F128EE /* EffectTabView.m */,
+				4F1D0FC71F3410FA00F128EE /* AudioMetersView.h */,
+				4F1D0FC81F3410FA00F128EE /* AudioMetersView.m */,
+				4F1D0FCD1F34186700F128EE /* UIWindow+QPLastWindow.h */,
+				4F1D0FCE1F34186700F128EE /* UIWindow+QPLastWindow.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -209,6 +294,9 @@
 				4F790A4E1F2F1DE20044C115 /* EffectViewController.h */,
 				4F790A4F1F2F1DE20044C115 /* EffectViewController.m */,
 				4F790A491F2F1D4D0044C115 /* EffectViewController.xib */,
+				4F1D0FD01F346FDF00F128EE /* SampleEffectViewController.h */,
+				4F1D0FD11F346FDF00F128EE /* SampleEffectViewController.m */,
+				4F1D0FD21F346FDF00F128EE /* SampleEffectViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -222,6 +310,8 @@
 				4F1D0FA61F316ACC00F128EE /* AVAssetStitcher.m */,
 				4F1D0FA81F31A89300F128EE /* SUReaderToWriter.h */,
 				4F1D0FA91F31A89300F128EE /* SUReaderToWriter.m */,
+				4F1D0FCA1F34134A00F128EE /* RecordAudio.h */,
+				4F1D0FCB1F34134A00F128EE /* RecordAudio.m */,
 			);
 			name = Categery;
 			sourceTree = "<group>";
@@ -362,6 +452,7 @@
 				4F790A1B1F2F0B900044C115 /* Main.storyboard in Resources */,
 				4F790A481F2F1D3E0044C115 /* RecordViewController.xib in Resources */,
 				4F790A4A1F2F1D4D0044C115 /* EffectViewController.xib in Resources */,
+				4F1D0FD41F346FE000F128EE /* SampleEffectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,13 +528,24 @@
 				4F1D0FA21F30757C00F128EE /* VideoPoint.m in Sources */,
 				4F1D0FA71F316ACC00F128EE /* AVAssetStitcher.m in Sources */,
 				4F790A541F2F2E940044C115 /* SURecord.m in Sources */,
+				4F1D0FC61F3410F000F128EE /* EffectTabView.m in Sources */,
+				4F1D0FCC1F34134A00F128EE /* RecordAudio.m in Sources */,
+				4F1D0FD31F346FDF00F128EE /* SampleEffectViewController.m in Sources */,
+				4F1D0FC01F3410DA00F128EE /* RecordAudioProgressView.m in Sources */,
+				4F1D0FB91F340F2800F128EE /* TTTAttributedLabel.m in Sources */,
 				4F790A181F2F0B900044C115 /* ViewController.m in Sources */,
 				4F1D0FAA1F31A89300F128EE /* SUReaderToWriter.m in Sources */,
 				4F790A501F2F1DE20044C115 /* EffectViewController.m in Sources */,
 				4F790A151F2F0B900044C115 /* AppDelegate.m in Sources */,
 				4F790A121F2F0B900044C115 /* main.m in Sources */,
+				4F1D0FCF1F34186700F128EE /* UIWindow+QPLastWindow.m in Sources */,
+				4F1D0FC31F3410E300F128EE /* QUSmoothCollectionView.m in Sources */,
+				4F1D0FBD1F340F5100F128EE /* HMSegmentedControl.m in Sources */,
+				4F1D0FC91F3410FA00F128EE /* AudioMetersView.m in Sources */,
 				4F790A4D1F2F1DD50044C115 /* RecordViewController.m in Sources */,
+				4F1D0FB51F340F0800F128EE /* MBProgressHUD.m in Sources */,
 				4F1D0F9D1F3060A900F128EE /* Video.m in Sources */,
+				4F1D0FAD1F31CE6400F128EE /* PointProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

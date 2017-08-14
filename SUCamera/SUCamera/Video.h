@@ -11,12 +11,15 @@
 
 @class VideoPoint;
 
-@interface Video : NSObject
+@interface Video : NSObject <NSCoding, NSCopying>
 
 @property (nonatomic, readonly)CGSize size;
 @property (nonatomic, strong) NSMutableArray *arrayPoint;
 @property (nonatomic, assign) CGFloat recordDuration;
 @property (nonatomic, assign) CGFloat alreadyRecordDuration;
+@property (nonatomic, strong) NSURL *originURL;
+@property (nonatomic, strong) NSURL *finalURL;
+@property (nonatomic, assign) CGFloat duration;
 
 - (NSString *)newUniquePathWithExt:(NSString *)ext;
 - (VideoPoint *)lastPoint;

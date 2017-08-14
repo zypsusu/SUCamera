@@ -17,8 +17,10 @@
 @property (nonatomic, assign) CGFloat videoTime;
 @property (nonatomic, assign) CGFloat audioTime;
 @property (nonatomic, assign) CGFloat duration;
-
+@property (nonatomic, assign) CGFloat maxDuration;
 
 - (void)updateTime;
+- (CGPoint)startPointFromWidth:(NSInteger)width;
+- (CGPoint)endPointFromWidth:(NSInteger)width;
 
 @end

@@ -10,6 +10,8 @@
 #import "VideoPoint.h"
 #import <AVFoundation/AVFoundation.h>
 
+#define ScreenWidth  CGRectGetWidth([[UIScreen mainScreen] bounds])
+
 @implementation VideoPoint
 
 - (CGFloat)duration
@@ -44,4 +46,13 @@
     }
 }
 
+- (CGPoint)startPointFromWidth:(NSInteger)width
+{
+    return CGPointMake(_startTime/_maxDuration*ScreenWidth, 0);
+}
+
+- (CGPoint)endPointFromWidth:(NSInteger)width
+{
+    return CGPointMake(_endTime/_maxDuration*ScreenWidth - 1, 0);
+}
 @end

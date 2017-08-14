@@ -8,6 +8,7 @@
 
 #import "Video.h"
 #import "VideoPoint.h"
+#import "YYModel.h"
 
 @interface Video ()
 @property (nonatomic, copy) NSString *uuid;
@@ -80,6 +81,13 @@
     return dir;
 }
 
+- (NSMutableArray *)arrayPoint{
+    if (!_arrayPoint) {
+        _arrayPoint = [NSMutableArray arrayWithCapacity:2];
+    }
+    return _arrayPoint;
+}
+
 + (NSString*)uuid{
     CFUUIDRef puuid = CFUUIDCreate( nil );
     CFStringRef uuidString = CFUUIDCreateString( nil, puuid );
@@ -92,6 +100,29 @@
 + (CGSize)videoSize
 {
     return CGSizeMake(640, 640);
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder{
+    [self yy_modelInitWithCoder:aDecoder];
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder{
+    [self yy_modelEncodeWithCoder:aCoder];
+}
+
+- (id)copyWithZone:(NSZone *)zone
+{
+    Video *video            = [[Video allocWithZone:zone] init];
+    video.uuid              = self.uuid;
+    video.originURL         = self.originURL;
+    video.finalURL          = self.finalURL;
+    video.duration          = self.duration;
+    video.arrayPoint        = [[NSMutableArray alloc]initWithArray:self.arrayPoint copyItems:YES];;
+    
+    //video.arrayPasterPoint = [[NSMutableArray alloc]initWithArray:self.arrayPasterPoint copyItems:YES];
+    //video.arrayFace = [[NSMutableArray alloc]initWithArray:self.arrayFace copyItems:YES];
+    return video;
 }
 
 @end

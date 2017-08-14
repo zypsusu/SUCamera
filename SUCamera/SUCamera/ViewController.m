@@ -21,8 +21,8 @@
 }
 
 - (IBAction)showRecod:(id)sender {
-    RecordViewController *recodVC = [[RecordViewController alloc] init];
-    [self.navigationController presentViewController:recodVC animated:YES completion:nil];
+    RecordViewController *recodVC = [[RecordViewController alloc] initWithNibName:@"RecordViewController" bundle:nil];
+    [self.navigationController pushViewController:recodVC animated:YES];
 }
 
 @end
